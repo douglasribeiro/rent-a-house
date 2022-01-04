@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Login</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <form [formGroup]="formulario" class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>E-mail</mat-label>
+          <input id="email" formControlName="email" matInput placeholder="Ex. usuario@email.com">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input id="senha" formControlName="senha" matInput type="senha">
+        </mat-form-field>
+      </form>
+    </div>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <button mat-button color="primary" (click)="login()">Login</button>
+  </mat-card-actions>
+</mat-card>

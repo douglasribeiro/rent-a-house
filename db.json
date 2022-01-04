@@ -1,0 +1,301 @@
+{
+  "proprietario": [
+    {
+      "id": 1,
+      "nome": "Proprietario 01 Alterado",
+      "cpf": "111.111.111.11",
+      "ident": "11.111.111-1",
+      "email": "proprietario01@email.com",
+      "estadoCivil": "Viuvo",
+      "niver": "1992-12-01T02:00:00.000Z",
+      "sexo": "Feminino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 11},
+        {"id": 21}
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Proprietario 02",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 12}
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Douglas Ribeiro",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 13}
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Proprietario 04",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 14}
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Proprietario 05",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Viuvo",
+      "niver": "1968-03-26T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 15}
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Proprietario 06",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 16}
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Proprietario 07",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 17}
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Proprietario 08",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null
+      ,
+      "enderecos": [
+        {"id": 18}
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Proprietario 09",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 19}
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Proprietario 10",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 110}
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Proprietario 11",
+      "cpf": "333.333.333.33",
+      "ident": "33.333.333-3",
+      "email": "douglas@email.com",
+      "estadoCivil": "Casado",
+      "niver": "1968-03-25T03:00:00.000Z",
+      "sexo": "Masculino",
+      "ativo": null,
+      "enderecos": [
+        {"id": 111}
+      ]
+    }
+  ],
+  "estados": [
+    {
+      "nome": "Acre",
+      "sigla": "AC"
+    },
+    {
+      "nome": "Alagoas",
+      "sigla": "AL"
+    },
+    {
+      "nome": "Amapá",
+      "sigla": "AP"
+    },
+    {
+      "nome": "Amazonas",
+      "sigla": "AM"
+    },
+    {
+      "nome": "Bahia",
+      "sigla": "BA"
+    },
+    {
+      "nome": "Ceará",
+      "sigla": "CE"
+    },
+    {
+      "nome": "Distrito Federal",
+      "sigla": "DF"
+    },
+    {
+      "nome": "Espírito Santo",
+      "sigla": "ES"
+    },
+    {
+      "nome": "Goiás",
+      "sigla": "GO"
+    },
+    {
+      "nome": "Maranhão",
+      "sigla": "MA"
+    },
+    {
+      "nome": "Mato Grosso",
+      "sigla": "MT"
+    },
+    {
+      "nome": "Mato Grosso do Sul",
+      "sigla": "MS"
+    },
+    {
+      "nome": "Minas Gerais",
+      "sigla": "MG"
+    },
+    {
+      "nome": "Pará",
+      "sigla": "PA"
+    },
+    {
+      "nome": "Paraíba",
+      "sigla": "PB"
+    },
+    {
+      "nome": "Paraná",
+      "sigla": "PR"
+    },
+    {
+      "nome": "Pernambuco",
+      "sigla": "PE"
+    },
+    {
+      "nome": "Piauí",
+      "sigla": "PI"
+    },
+    {
+      "nome": "Rio de Janeiro",
+      "sigla": "RJ"
+    },
+    {
+      "nome": "Rio Grande do Norte",
+      "sigla": "RN"
+    },
+    {
+      "nome": "Rio Grande do Sul",
+      "sigla": "RS"
+    },
+    {
+      "nome": "Rondônia",
+      "sigla": "RO"
+    },
+    {
+      "nome": "Roraima",
+      "sigla": "RR"
+    },
+    {
+      "nome": "Santa Catarina",
+      "sigla": "SC"
+    },
+    {
+      "nome": "São Paulo",
+      "sigla": "SP"
+    },
+    {
+      "nome": "Sergipe",
+      "sigla": "SE"
+    },
+    {
+      "nome": "Tocantins",
+      "sigla": "TO"
+    }
+  ],
+  "sexo": [
+    {
+      "descr": "Masculino"
+    },
+    {
+      "descr": "Feminino"
+    },
+    {
+      "descr": "Outros"
+    },
+    {
+      "descr": "Não Declara"
+    }
+  ],
+  "estadoCivil": [
+    {
+      "descr": "Solteiro"
+    },
+    {
+      "descr": "Casado"
+    },
+    {
+      "descr": "Amaziado"
+    },
+    {
+      "descr": "Divorciado"
+    },
+    {
+      "descr": "Viuvo"
+    }
+  ]
+}

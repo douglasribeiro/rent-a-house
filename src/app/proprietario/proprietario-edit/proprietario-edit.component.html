@@ -1,0 +1,76 @@
+<mat-card class="example-card" layout="row" layout-align="center center">
+  <mat-card-header>
+    <mat-card-title>Proprietario</mat-card-title>
+    <mat-card-subtitle>{{(proprietario && proprietario.id)? 'Editar Proprietario': 'Cadastrar Proprietario'}}
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+
+    <div class="componente-container">
+      <form class="example-form" *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="formGroup.valid && salvar()"
+        novalidate>
+        <mat-grid-list cols="4" rowHeight="1:1">
+          <mat-form-field class="example-full-width">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Nome" formControlName="nome" required autocomplete="off">
+            <mat-error>Campo é obrigatório</mat-error>
+          </mat-form-field>
+
+          <mat-form-field style="width: 44%;">
+            <mat-label>C.P.F.</mat-label>
+            <input matInput placeholder="C.P.F" formControlName="cpf" required autocomplete="off">
+            <mat-error>Campo é obrigatório</mat-error>
+          </mat-form-field>
+
+          <mat-form-field style="width: 44%;">
+            <mat-label>Identidade</mat-label>
+            <input matInput placeholder="Identidade" formControlName="ident" required autocomplete="off">
+            <mat-error>Campo é obrigatório</mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>E-mail</mat-label>
+            <input matInput placeholder="e-mail" formControlName="email" required autocomplete="off">
+            <mat-error>Campo é obrigatório</mat-error>
+          </mat-form-field>
+
+          <mat-form-field style="width: 30%;">
+            <mat-label>Estado Civil</mat-label>
+            <!-- <input matInput placeholder="Estado Civil" formControlName="estadoCivil" autocomplete="off"> -->
+            <select matNativeControl formControlName="estadoCivil" placeholder="Estado Civil">
+              <option *ngFor="let estadoCivil of estadosCivis | async" [value]="estadoCivil.descr">{{estadoCivil.descr}}</option>
+
+            </select>
+          </mat-form-field>
+
+          <mat-form-field style="width: 30%;">
+            <mat-label>Data Nascimento</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="niver">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+
+          <mat-form-field style="width: 22%;">
+            <mat-label>Sexo</mat-label>
+            <!-- <input matInput placeholder="Sexo" formControlName="sexo" autocomplete="off"> -->
+            <select matNativeControl formControlName="sexo" placeholder="Sexo">
+              <option *ngFor="let sexo of sexos | async" [value]="sexo.descr">{{sexo.descr}}</option>
+            </select>
+          </mat-form-field>
+
+        </mat-grid-list>
+      </form>
+    </div>
+
+
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="linha-botoes">
+      <button mat-raised-button color="primary" [disabled]="!formGroup.valid" (click)="salvar()">Salvar</button>
+      <button *ngIf="proprietario && proprietario.id" mat-raised-button color="warn"
+        [disabled]="!formGroup.valid" (click)="deletar()">Excluir</button>
+      <button type="button" mat-raised-button routerLink="/proprietario">Cancelar</button>
+    </div>
+
+  </mat-card-actions>
+</mat-card>
